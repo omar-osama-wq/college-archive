@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    color: #1a202c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #718096;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.subjects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subject-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.subject-card h3 {
+    margin-top: 0;
+    color: #2b6cb0;
+    font-size: 18px;
+}
+
+.subject-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subject-card li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 12px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #edf2f7;
+}
+
+.download-btn {
+    background: #3182ce;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #2b6cb0;
+}
+
+.delete-btn {
+    background: #e53e3e;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    background: #c53030;
+}
+
+.upload-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #edf2f7;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.text-input {
+    padding: 8px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 14px;
+    flex: 1;
+}
+
+.upload-btn-submit {
+    background: #38a169;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.upload-btn-submit:hover {
+    background: #2f855a;
+}
+
+.add-subject-box {
+    background: #ebf8ff;
+    border: 1px solid #bee3f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+}
